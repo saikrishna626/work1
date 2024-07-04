@@ -196,6 +196,62 @@ color: rgb(7, 107, 124);
     width:20px;
     height: 20px;
 }
-@media (min-width:300px) and (max-width:575.98px){
+.contact{
+    padding: 15px 10px;
+}
+.contact:hover{
+    background-color: white;
+    border-radius: 40px;
+    scale: 1.2;
+    color: black;
+    transition: .6s;
+}
+
+@media (min-width:5px) and (max-width:575.98px){
+    .gallery
+    {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    }
+    
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .gallery
+    {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    }
+    
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .gallery
+    {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .gallery
+    {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    .gallery
+    {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    }
+    
+}
+@media (min-width:1400px) and (max-width:2000.98px){
+    .gallery
+    {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    }
     
 }
